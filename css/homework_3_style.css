@@ -7,7 +7,7 @@ body {
 .big_1 {
     position: relative;
     left: 300px;
-    top: 15px;
+    top: 20px;
     color: white;
     font-size: 20px;
     background-color: #ffffff00;
@@ -31,6 +31,8 @@ body {
     background-color: #ffffff00;
     border: 2px solid white;
     cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .big_2:hover {
@@ -70,8 +72,8 @@ body {
     background-color: forestgreen;
     color: white;
     position: relative;
-    border-radius: 50%;
-    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    padding: 10px;
     border: none;
     cursor: pointer;
 }
@@ -104,11 +106,13 @@ body {
     left: 870px;
     top: -280px;
     width: 320px;
-    height: 350px;
+    height: 360px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .heading_2 {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     font-weight: 500;
 }
@@ -131,7 +135,7 @@ body {
 .butt_2 {
     background-color: blue;
     color: white;
-    border-radius: 50%;
+    border-radius: 15px;
     padding: 10px 90px 10px 90px;
     border: none;
     cursor: pointer;
